@@ -4,7 +4,7 @@
 	description="Code sample for a C# client using ADO.NET to connect to and interact with the AdventureWorks database on the Azure SQL Database cloud service."
 	services="sql-database" 
 	documentationCenter="" 
-	authors="MightyPen" 
+	authors="ckarst" 
 	manager="jeffreyg" 
 	editor=""/>
 
@@ -16,7 +16,7 @@
 	ms.devlang="dotnet" 
 	ms.topic="article" 
 	ms.date="04/14/2015" 
-	ms.author="genemi"/>
+	ms.author="cakarst"/>
 
 
 # Connect to and query your SQL Database with C# 
@@ -46,11 +46,10 @@ This topic provides a C# code sample that shows you how to connect to an existin
 1. Copy and paste the code sample from below into your console application.
 
 
-> [AZURE.WARNNING] The code sample is designed to be as short as possible to make it easy to understand. The sample is not meant to be used in production.
+> [AZURE.WARNING] The code sample is designed to be as short as possible to make it easy to understand. The sample is not meant to be used in production.
 
 
-Although the code sample is not meant for production, it does have certain features that production-quality code must have:
-
+The code sample below is not meant for production. For production ready code, consider implementing the following best practices:
 
 - Exception handling.
 - Retry logic for transient errors.
@@ -125,7 +124,7 @@ On the database connection strings blade, you see the appropriate connection str
 ## Step 4: Substitute real connection information
 
 
--In the source code you pasted, replace the *<Your_Connection_String>* placeholder with the connection string, and be sure to replace *your_password_here* in that string with your actual password.
+In the source code you pasted, replace the *<Your_Connection_String>* placeholder with the connection string, and be sure to replace *your_password_here* in that string with your actual password.
 
 
 ## Step 5: Run the application
